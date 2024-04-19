@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Used Music Gear</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+
+      /* Header */
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header input[type="search"] {
+        border: none;
+        border-radius: 5px;
+        padding: 0.5rem;
+        outline: none;
+      }
+
+      header label {
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      header button {
+        background-color: #4cae4c;
+        color: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left: 1rem;
+      }
+
+      /* Sample Products */
+      main {
+        padding: 2rem;
+      }
+
+      .product {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      .product h2 {
+        margin-top: 0;
+      }
+
+      /* Footer */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 1rem;
+      }
+
+      /* Styles for a colorful design */
+      header,
+      footer {
+        color: #fff;
+      }
+
+      .product {
+        background-color: #fff;
+      }
+
+      button {
+        background-color: #4caf50;
+      }
+
+      /* Contrast Improvements */
+      header button,
+      footer a {
+        background-color: #007b5e;
+      }
+
+      @media (max-width: 600px) {
+        header {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        header input[type="search"] {
+          width: 80%;
+          margin-bottom: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Used Music Gear</h1>
+      <form>
+        <label for="search">Search:</label>
+        <input type="search" id="search" placeholder="Search..." />
+      </form>
+      <button>Sign Up</button>
+      <button>Login</button>
+    </header>
+
+    <!-- Sample Products -->
+    <main>
+      <div class="product">
+        <h2>Electric Guitar</h2>
+        <p>Well-maintained electric guitar, perfect for beginners.</p>
+      </div>
+      <div class="product">
+        <h2>Acoustic Guitar</h2>
+        <p>Gently used acoustic guitar, ideal for experienced players.</p>
+      </div>
+      <div class="product">
+        <h2>Piano Keyboard</h2>
+        <p>Excellent condition piano keyboard, great for learning.</p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2023
